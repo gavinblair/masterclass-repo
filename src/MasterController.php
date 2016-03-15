@@ -1,4 +1,5 @@
 <?php
+namespace Masterclass;
 
 class MasterController {
     

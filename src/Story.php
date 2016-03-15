@@ -1,4 +1,6 @@
 <?php
+namespace Masterclass;
+use PDO;
 
 class Story {
     
@@ -55,7 +57,7 @@ class Story {
             ';
         }
         
-        require_once 'layout.phtml';
+        require '../views/layout.phtml';
         
     }
     
@@ -95,7 +97,7 @@ class Story {
             </form>
         ';
         
-        require_once 'layout.phtml';
+        require '../views/layout.phtml';
     }
     
 }
