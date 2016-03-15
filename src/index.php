@@ -1,5 +1,7 @@
 <?php
- 
+namespace Masterclass;
+use PDO;
+
 class Index {
     
     protected $db;
@@ -36,7 +38,7 @@ class Index {
         
         $content .= '</ol>';
         
-        require 'layout.phtml';
+        require '../views/layout.phtml';
     }
 }
 

@@ -1,5 +1,19 @@
 {
-    "require-dev": {
-        "laravel/homestead": "^3.0"
+  "name": "gavin/masterclass",
+  "description": "PHP Masterclas Homework",
+  "authors": [
+    {
+      "name": "Gavin Blair",
+      "email": "gavin.blair@ellipsis.digital"
     }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Masterclass\\": "src/"
+    }
+  }
 }

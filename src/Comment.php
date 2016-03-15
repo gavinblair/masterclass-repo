@@ -1,4 +1,6 @@
 <?php
+namespace Masterclass;
+use PDO;
 
 class Comment {
     
